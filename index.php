@@ -1,3 +1,10 @@
+<html><body>
+    <input type="text" id="input">
+    <div id="result"></div>
+</body></html>
+
+
+
 <?php 
 if (isset($_POST['input'])) {
     $con = mysqli_connect("localhost", "root", "", "your_database");
